@@ -1,0 +1,434 @@
+@font-face {
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: bold;
+  src: url('fonts/IRANSansFa/eot/IRANSansWebFaNumBold.eot');
+  src: url('fonts/IRANSansFa/eot/IRANSansWebFaNumBold.eot?#iefix') format('embedded-opentype'), /* IE6-8 */ url('fonts/IRANSansFa/woff2/IRANSansWebFaNumBold.woff2') format('woff2'), /* FF39+,Chrome36+, Opera24+*/ url('fonts/IRANSansFa/woff/IRANSansWebFaNumBold.woff') format('woff'), /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url('fonts/IRANSansFa/ttf/IRANSansWebFaNumBold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: 500;
+  src: url('fonts/IRANSansFa/eot/IRANSansWebFaNumMedium.eot');
+  src: url('fonts/IRANSansFa/eot/IRANSansWebFaNumMedium.eot?#iefix') format('embedded-opentype'), /* IE6-8 */ url('fonts/IRANSansFa/woff2/IRANSansWebFaNumMedium.woff2') format('woff2'), /* FF39+,Chrome36+, Opera24+*/ url('fonts/IRANSansFa/woff/IRANSansWebFaNumMedium.woff') format('woff'), /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url('fonts/IRANSansFa/ttf/IRANSansWebFaNumMedium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: 300;
+  src: url('fonts/IRANSansFa/eot/IRANSansWebFaNumLight.eot');
+  src: url('fonts/IRANSansFa/eot/IRANSansWebFaNumLight.eot?#iefix') format('embedded-opentype'), /* IE6-8 */ url('fonts/IRANSansFa/woff2/IRANSansWebFaNumLight.woff2') format('woff2'), /* FF39+,Chrome36+, Opera24+*/ url('fonts/IRANSansFa/woff/IRANSansWebFaNumLight.woff') format('woff'), /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url('fonts/IRANSansFa/ttf/IRANSansWebFaNumLight.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: 200;
+  src: url('fonts/IRANSansFa/eot/IRANSansWebFaNumUltraLight.eot');
+  src: url('fonts/IRANSansFa/eot/IRANSansWebFaNumUltraLight.eot?#iefix') format('embedded-opentype'), /* IE6-8 */ url('fonts/IRANSansFa/woff2/IRANSansWebFaNumUltraLight.woff2') format('woff2'), /* FF39+,Chrome36+, Opera24+*/ url('fonts/IRANSansFa/woff/IRANSansWebFaNumUltraLight.woff') format('woff'), /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url('fonts/IRANSansFa/ttf/IRANSansWebFaNumUltraLight.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: normal;
+  src: url('fonts/IRANSansFa/eot/IRANSansWebFaNum.eot');
+  src: url('fonts/IRANSansFa/eot/IRANSansWebFaNum.eot?#iefix') format('embedded-opentype'), /* IE6-8 */ url('fonts/IRANSansFa/woff2/IRANSansWebFaNum.woff2') format('woff2'), /* FF39+,Chrome36+, Opera24+*/ url('fonts/IRANSansFa/woff/IRANSansWebFaNum.woff') format('woff'), /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url('fonts/IRANSansFa/ttf/IRANSansWebFaNum.ttf') format('truetype');
+}
+
+/* iransansdn */
+@font-face {
+  font-family: iransansdn;
+  font-style: normal;
+  font-weight: normal;
+  src: url('fonts/iransansdn/iransansdn.ttf');
+}
+
+@font-face {
+  font-family: iransansdn;
+  font-style: normal;
+  font-weight: 600;
+  src: url('fonts/iransansdn/iransansdnbold.ttf') format('truetype'),
+}
+
+/* poppins */
+@font-face {
+  font-family: poppins;
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/poppins/Poppins-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: poppins;
+  font-style: normal;
+  font-weight: 500;
+  src: url('fonts/poppins/Poppins-Medium.ttf') format('truetype')
+}
+
+@font-face {
+  font-family: poppins;
+  font-style: normal;
+  font-weight: 700;
+  src: url('fonts/poppins/Poppins-Bold.ttf') format('truetype')
+}
+
+/* sepah bod */
+@font-face {
+  font-family: sepahbod;
+  font-style: normal;
+  font-weight: normal;
+  src: url('fonts/sepahbod/Sepahbod.otf') format('truetype'),
+}
+body{
+  font-family: IRANSans!important ;
+}
+
+.menu li a{
+  text-decoration: none;
+  
+ 
+}
+.menu li a:hover{
+  text-decoration: underline;
+transition:   1s; 
+position: relative;
+}
+ul {
+  display: block;
+ text-align: center;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+
+    text-decoration: overline;
+   
+    list-style: none;
+    
+
+    
+  }
+  
+  li{
+    float: left;
+  }
+  
+  li a{
+display: inline inline-block;
+    color: #666;
+  text-align: right;
+    padding: 20px 16px;
+  
+   
+    
+  }
+  
+  li a:hover:not(.active){
+    background-color: white;
+  }
+  
+  li a.active{
+    color: white;
+    background-color: #04AA6D;
+  }
+ .googleplay{
+  
+    margin-left: 20px;
+    margin-bottom: 23px;
+  }
+ 
+  .p{ text-align: right;
+
+  }
+.box{
+  display: flex;
+  flex-direction: column;
+}
+.btn{
+  z-index: 1;
+  width: 5%;
+  border-radius: 3px;
+  margin: 20px auto;
+  padding: 10px;
+  position: relative;
+  flex: 1 1 auto;
+   color: white;
+   background-color: #009fd9;
+border-color: #009fd9;
+   margin-left: 59px;
+   transition: 0.1s;
+   font-size: 17px;
+  
+  
+  
+}
+.butn{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap-reverse;
+
+}
+ 
+  
+
+
+.btn:hover{
+  background-color: dodgerblue;
+
+}
+
+
+
+.input{
+
+  width: 65%;
+
+  padding: 13px;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+
+}
+.h3{
+  text-align: center;
+  margin: 138px 280px auto;
+  padding: 51px 0 11px 0px;
+
+  }
+  .h2{
+    width: 226px;
+    height: 33px;
+    font-size: 1.1rem;
+    background-color: green;
+    color: white;
+    border-radius: .5rem;
+    display: block;
+    margin: 20px auto;
+    transition: 0.7s;
+    
+    
+    
+
+  }
+  .h2:hover{
+    background-color: #5db616;
+    box-shadow: 1px 1px 2px #fff;
+    border: 1px solid black;
+    
+     }
+
+.milad{
+  border-radius: .25rem;
+background-color: #fff;
+box-shadow:  0 2px 5px 0 rgba(0,0,0,0.16),0 2px 15px 0 rgba(0,0,0,0.12);
+font-size: 1rem;
+padding: 22px;
+box-sizing: border-box;
+text-align: right;
+margin-left: 87px;
+width: 33%;
+
+}
+.button{
+  border: 1px solid black;
+  font-size: 1rem;
+  padding: .5rem 1rem;
+  border-radius: 4px;
+  background-color: #fff;
+  color: #212529;
+  font-size: 1rem;
+  margin-bottom: 7px;
+
+  
+}
+
+.button:hover{
+background-color: #009fd9;
+
+}
+.vivo{
+line-height: 2;
+ text-align: right;
+ float: right;
+ list-style-type: circle;
+
+
+}
+
+.logo-top{
+  float: right;
+}
+
+.provider{
+  display: block;
+ 
+}
+.max{
+  margin: 70px 120px 20px 80px;
+list-style-type: decimal;
+}
+.min{
+  display: flex;
+
+  text-align: center;
+margin-left: 80px;
+margin: 81px;
+
+}
+.m2{
+  text-align: center;
+  margin-bottom: 3rem;
+}
+.n{
+ margin-right: 110px;
+ 
+
+ 
+}
+
+  
+
+.x4{
+  margin-bottom: 25px;
+  text-align: right;
+  
+  line-height: 2.2rem;
+  margin-right: 80px;
+  max-width: 650px;
+  color: #6c757d;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+
+
+
+.my-container{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.my-box{
+ 
+  margin: 25px;
+}
+.m10{
+  text-align: center;
+ 
+}
+ .w3{
+  text-align: center;
+ }
+.B4{
+  background-color: #03A9F4;
+  border-color: #03A9F4;
+  box-shadow: 0px 3px 6px rgba(0,0,0,0.1);
+  color: white;
+  font-size: 1.25rem;
+  display: block;
+  width: 309px;
+  height: 50px;
+  border-radius: 0.3rem;
+  text-align: center;
+  margin:0 auto;
+  
+}
+
+.B4:hover{
+  background-color: #009fd9;
+  border-color: #009fd9;
+  color: #fff;
+  box-shadow: 0px 3px 6px rgba(0,0,0,0.1);
+}
+.slk{
+  
+margin-bottom: 40px;
+
+}
+.body{
+  display: flex;
+  flex-direction: row-reverse;
+  margin-right: 39px;
+  margin-left: 39px;
+}
+
+.p-4{
+  font-size: 0.9rem;
+
+
+}
+.my-body{
+  box-sizing: border-box;
+  text-align: center;
+  direction: rtl;
+  font-size: 0.75rem;
+}
+.card-container {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;}
+
+.card-box {
+  background-color: #fff;
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,0.16), 0 1px 5px 0 rgba(0,0,0,0.12);
+    transition: 1s;
+    border-radius: 0.25rem;
+    width: 33%;
+    margin: 15px 19px;
+    align-items: center;
+
+    padding: 17px;
+    
+    display: flex;
+
+ }
+ 
+
+
+
+
+.card-info {
+  padding: 5px;
+  margin-left: 200px;
+  text-align: right;
+ 
+  
+}
+
+.card-info h2 {
+  font-size: 18px;
+  margin: 0px 0 10px;
+  
+
+
+
+}
+.card-info p {
+  font-size: 10px;
+  
+ 
+}
+
+.max-123{
+  display: flex;
+  flex-direction: row-reverse;
+  margin-right: 180px;
+
+}
+.end{
+  box-sizing: border-box;
+}
+.text{
+  margin-top: 55px;
+  margin-right: 130px;
+  margin-left: 70px;
+ 
+}
+.end-1{
+  object-fit: contain;
+}
+
